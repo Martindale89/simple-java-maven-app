@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Complete') {
             steps {
-                echo 'jobs a gooden'
+                echo 'jobs a gooden on this multi branch pipeline'
             }
         }
     }
